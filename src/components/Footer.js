@@ -3,23 +3,21 @@ import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
-      <ul className="icons">
+      {/* <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
           return (
             <li key={url}>
-              <a href={url} className={`icon ${style} ${icon}`}>
+              <a href={url} target="_blank" className={`icon ${style} ${icon}`}>
                 <span className="label">{name}</span>
               </a>
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <ul className="copyright">
-        <li>&copy; Spectral</li>
-        <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
-        </li>
+        <li>Created with 💜 by <b>Ezgi Elouzeh</b> | 2021</li>
+        <p>Built using <a href="https://www.gatsbyjs.com/" target="_blank">Gatsby</a></p>
       </ul>
     </footer>
   );

@@ -1,12 +1,9 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import profileImage from '../assets/images/profile-bw.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -15,13 +12,8 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
-          <li>
-            <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
-                Explore
-              </a>
-            </Scroll>
-          </li>
+          <li><a href="/Resume" className="button">Resume</a></li>
+          <li><a href="#two" className="button">Projects</a></li>
         </ul>
       </div>
       <Scroll type="id" element="one">
@@ -35,99 +27,33 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
+            Hello World, This is Ezgi!
           </h2>
+          <div style={{textAlign: 'center'}}>
+            <img
+              style={{width: '250px', height: '250px', borderRadius: '250px'}}
+              src={profileImage}
+            />
+          </div>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            As an educator, I've always found myself either designing curriculum or building games while working in this field. After being a teacher for over 5 years, I realized I enjoy the backend of teaching as much as the teaching itself so I wanted to move on to a tech-related position where I can still be connected to education. First, I started exploring the front end, learned a little bit of HTML and CSS, started enjoying it, and thought why not tapping into the back end as well. And after exploring the ed-tech world, I decided that I would love to see myself somewhere as an e-learning expert and be involved in a process where the school systems are stuck in achieving their goals as opposed to remote learning possibilities.
+            <br /><br />
+            My prior experience in education provided me with skills that I can apply to tech and I am looking forward to working with people who believe in lifetime learning.
+            <br /><br />
+            Proficient: JavaScript, React, Redux, NodeJs, Express, Sequelize, PostgreSQL, Git, Github, HTML, CSS
+            Knowledgable: Heroku, Webpack, testing with Mocha, Chai, Jasmine
+            Some familiarity: Clarifai.js, Web Speech API. Google Cloud Translation API, React Native, Expo.
           </p>
         </header>
-        <ul className="icons major">
-          <li>
-            <span className="icon fa-gem major style1">
-              <span className="label">Lorem</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon fa-heart major style2">
-              <span className="label">Ipsum</span>
-            </span>
-          </li>
-          <li>
-            <span className="icon solid fa-code major style3">
-              <span className="label">Dolor</span>
-            </span>
-          </li>
-        </ul>
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic1} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section>
-    </section>
-
-    <section id="three" className="wrapper style3 special">
+    <section id="two" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Projects</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            These are the projects that I've built during my coding bootcamp at Full Stack Academy.
           </p>
         </header>
         <ul className="features">
@@ -159,45 +85,34 @@ const IndexPage = () => (
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
-          </li>
         </ul>
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
+    <section id="cta" className="wrapper style4" style={{textAlign: 'center'}}>
+      <div>
         <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+          <h2>Let's connect</h2>
+          <p style={{color: 'white'}}>
+            I'd love to hear from you and discuss how my skills might match your needs. You can contact me at:
           </p>
+          <ul className="icons">
+            {config.socialLinks.map (social => {
+              const {style, icon, name, url} = social;
+              return (
+                <li key={url}>
+                  <a
+                    href={url}
+                    target="_blank"
+                    className={`icon ${style} ${icon}`}
+                  >
+                    <span className="label">{name}</span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Activate
-            </a>
-          </li>
-          <li>
-            <a href="/#" className="button fit">
-              Learn More
-            </a>
-          </li>
-        </ul>
       </div>
     </section>
   </Layout>
