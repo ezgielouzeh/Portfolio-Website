@@ -31,4 +31,62 @@ module.exports = {
       url: 'mailto:ezgisirip@gmail.com',
     },
   ],
+  projects: {
+    courses: [
+      {
+        style: 'brands fa-2x',
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/Dragonair-Dream-Team/4course-capstone',
+      },
+      {
+        style: 'brands',
+        icon: 'fa-link',
+        name: 'Link',
+        url: 'https://twitter.com/EElouzeh',
+      },
+    ],
+    plantter: [
+      {
+        style: 'brands',
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/N7-Normandy/Grace-Plantter',
+      },
+      {
+        style: 'brands',
+        icon: 'fa-link',
+        name: 'Link',
+        url: 'https://twitter.com/EElouzeh',
+      },
+    ],
+    portfolio: [
+      {
+        style: 'brands',
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/ezgielouzeh/portfolio-website',
+      },
+      {
+        style: 'brands',
+        icon: 'fa-link',
+        name: 'Link',
+        url: 'https://twitter.com/EElouzeh',
+      },
+    ],
+    ditchionary: [
+      {
+        style: 'brands',
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/ezgielouzeh/ditchionary',
+      },
+      {
+        style: 'brands',
+        icon: 'fa-link',
+        name: 'Link',
+        url: 'https://twitter.com/EElouzeh',
+      },
+    ],
+  },
 };

@@ -48,6 +48,28 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section id="three" className="wrapper style2 special">
+      <div className="inner">
+        <header className="major">
+          <h2>Skills</h2>
+          <div style={{border:"2px solid white", padding:"20px"}}>
+            <p style={{fontSize:"23px", margin:0}}><b>Proficient</b></p>
+            <p>JavaScript, React, Redux, NodeJs, Express, Sequelize, PostgreSQL , Git, Github, HTML, CSS</p>
+
+            <p style={{fontSize:"23px", margin:0}}><b>Knowledgable</b></p>
+            <p>Heroku, Webpack, Babel, Mocha, Chai, Jasmine, Material UI, JWT, Mapbox</p>
+
+            <p style={{fontSize:"23px", margin:0}}><b>Some familiarity</b></p>
+            <p>Clarifai.js, Web Speech API. Google Cloud Translation API, React Native, Expo</p>
+
+            <p style={{fontSize:"23px", margin:0}}><b>Working on</b></p>
+            <p>Selenium, WebdriverIO</p>
+          </div>
+
+        </header>
+      </div>
+    </section>
+
     <section id="two" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
@@ -57,33 +79,38 @@ const IndexPage = () => (
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+
+          <li className="icon solid fa-laptop">
+            <a href="Projects#courses">
+              <h3>Four Course</h3>
+              <p>
+                A web app that gamifies the decision making process in choosing restaurants within a group of friends
+              </p>
+            </a>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+            <a href="Projects#plantter">
+              <h3>Grace Plantter</h3>
+              <p>
+                A full stack e-commerce website that enables users to shop for plants and purchase them
+              </p>
+            </a>
           </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+          <li className="icon solid fa-laptop">
+          <a href="Projects#ditchionary">
+            <h3>Ditchionary</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              An e-reader app that allows Turkish language learners to both hear what they read and see the translation of a word
             </p>
+            </a>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="icon solid fa-laptop">
+          <a href="Projects#portfolio">
+            <h3>Portfolio Website</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              This awesome website!
             </p>
+            </a>
           </li>
         </ul>
       </div>
@@ -104,7 +131,7 @@ const IndexPage = () => (
                   <a
                     href={url}
                     target="_blank"
-                    className={`icon ${style} ${icon}`}
+                    className={`icon fa-4x ${style} ${icon}`}
                   >
                     <span className="label">{name}</span>
                   </a>

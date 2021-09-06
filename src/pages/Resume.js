@@ -7,7 +7,7 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <h2>My Resume</h2>
+        <h2>Resume</h2>
         <a href={resume} target="_blank"><p>Download</p></a>
       </header>
       <section className="wrapper style5">
