@@ -12,7 +12,7 @@ const IndexPage = () => (
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
-          <li><a href="/Resume" className="button">Resume</a></li>
+          <li><a href="Resume" className="button">Resume</a></li>
           <li><a href="#two" className="button">Projects</a></li>
         </ul>
       </div>

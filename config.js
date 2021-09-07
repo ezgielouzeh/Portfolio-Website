@@ -20,9 +20,9 @@ module.exports = {
     },
     {
       style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/EElouzeh',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/ezgielouzeh/',
     },
     {
       style: 'solid',
