@@ -46,7 +46,13 @@ module.exports = {
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/Dragonair-Dream-Team/4course-capstone',
-      }
+      },
+      {
+        style: 'solid',
+        icon: 'fa-link',
+        name: 'Website',
+        url: 'http://fourcourse-capstone.herokuapp.com',
+      },
     ],
     plantter: [
       {
@@ -54,6 +60,12 @@ module.exports = {
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/N7-Normandy/Grace-Plantter',
+      },
+      {
+        style: 'solid',
+        icon: 'fa-link',
+        name: 'Website',
+        url: 'https://grace-plantter.herokuapp.com/',
       },
     ],
     portfolio: [
@@ -66,3 +78,4 @@ module.exports = {
     ],
   },
 };
+
