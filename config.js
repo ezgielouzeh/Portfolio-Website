@@ -39,12 +39,6 @@ module.exports = {
         name: 'Github',
         url: 'https://github.com/Dragonair-Dream-Team/4course-capstone',
       },
-      {
-        style: 'brands',
-        icon: 'fa-link',
-        name: 'Link',
-        url: 'https://twitter.com/EElouzeh',
-      },
     ],
     plantter: [
       {
@@ -52,12 +46,6 @@ module.exports = {
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/N7-Normandy/Grace-Plantter',
-      },
-      {
-        style: 'brands',
-        icon: 'fa-link',
-        name: 'Link',
-        url: 'https://twitter.com/EElouzeh',
       },
     ],
     portfolio: [
@@ -67,12 +55,6 @@ module.exports = {
         name: 'Github',
         url: 'https://github.com/ezgielouzeh/portfolio-website',
       },
-      {
-        style: 'brands',
-        icon: 'fa-link',
-        name: 'Link',
-        url: 'https://twitter.com/EElouzeh',
-      },
     ],
     ditchionary: [
       {
@@ -80,12 +62,6 @@ module.exports = {
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/ezgielouzeh/ditchionary',
-      },
-      {
-        style: 'brands',
-        icon: 'fa-link',
-        name: 'Link',
-        url: 'https://twitter.com/EElouzeh',
       },
     ],
   },
