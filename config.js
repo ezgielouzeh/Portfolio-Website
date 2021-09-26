@@ -32,13 +32,21 @@ module.exports = {
     },
   ],
   projects: {
+    ditchionary: [
+      {
+        style: 'brands',
+        icon: 'fa-github',
+        name: 'Github',
+        url: 'https://github.com/ezgielouzeh/ditchionary',
+      },
+    ],
     courses: [
       {
         style: 'brands fa-2x',
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/Dragonair-Dream-Team/4course-capstone',
-      },
+      }
     ],
     plantter: [
       {
@@ -54,14 +62,6 @@ module.exports = {
         icon: 'fa-github',
         name: 'Github',
         url: 'https://github.com/ezgielouzeh/portfolio-website',
-      },
-    ],
-    ditchionary: [
-      {
-        style: 'brands',
-        icon: 'fa-github',
-        name: 'Github',
-        url: 'https://github.com/ezgielouzeh/ditchionary',
       },
     ],
   },

@@ -15,9 +15,40 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style5">
         <div className="inner">
+        <div id="ditchionary">
+            <h3>Ditchionary</h3>
+            <h4>Full Stack Developer | Mar 2021 | Solo Project</h4>
+            <p>
+            <span className="image right"><img src={ditchionaryGif}/></span>Developed an e-reader app that allows Turkish language learners to both hear what they read and see the translation of a word.
+              <br />
+              <br />
+              Implemented React utilizing Web Speech and Google Cloud Translation API
+            </p>
+
+
+            <ul className="icons">
+              {config.projects.ditchionary.map (social => {
+                const {style, icon, name, url} = social;
+                return (
+                  <li key={url}>
+                    <a
+                      href={url}
+                      target="_blank"
+                      className={`icon fa-2x ${style} ${icon}`}
+                    >
+                      <span className="label">{name}</span>
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <br />
+          <hr />
+
           <div id="courses">
             <h3>Four Course</h3>
-            <h4>Full Stack Developer | May 2021</h4>
+            <h4>Full Stack Developer | May 2021 | Team Project</h4>
             <p>
             <span className="image right"><img src={coursesGif}/></span> Built a browser app that gamifies the decision making process in choosing restaurants within a group of people
               <br />
@@ -43,11 +74,12 @@ const IndexPage = () => (
             </ul>
           </div>
           <br />
+          <br />
           <hr />
 
           <div id="plantter">
             <h3>Grace Plantter</h3>
-            <h4>Full Stack Developer | May 2021</h4>
+            <h4>Full Stack Developer | May 2021 | Team Project</h4>
             <p>
             <span className="image right"><img src={plantterGif}/></span>Built a full stack e-commerce website that enables users to shop for plants and purchase them.
               <br />
@@ -77,7 +109,7 @@ const IndexPage = () => (
 
           <div id="portfolio">
             <h3>Portfolio Website</h3>
-            <h4>Full Stack Developer | Sep 2021</h4>
+            <h4>Full Stack Developer | Sep 2021 | Solo Project</h4>
             <p>
             <span className="image right"><img src={portfolioGif}/></span>I created my website using Gatsby and React.
             </p>
@@ -103,37 +135,6 @@ const IndexPage = () => (
             <br/>
             <br/>
             <br/>
-
-          <hr />
-
-          <div id="ditchionary">
-            <h3>Ditchionary</h3>
-            <h4>Full Stack Developer | Mar 2021</h4>
-            <p>
-            <span className="image right"><img src={ditchionaryGif}/></span>Developed an e-reader app that allows Turkish language learners to both hear what they read and see the translation of a word.
-              <br />
-              <br />
-              Implemented React utilizing Web Speech and Google Cloud Translation API
-            </p>
-
-
-            <ul className="icons">
-              {config.projects.ditchionary.map (social => {
-                const {style, icon, name, url} = social;
-                return (
-                  <li key={url}>
-                    <a
-                      href={url}
-                      target="_blank"
-                      className={`icon fa-2x ${style} ${icon}`}
-                    >
-                      <span className="label">{name}</span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
         </div>
       </section>
     </article>
