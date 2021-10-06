@@ -13,7 +13,7 @@ const IndexPage = () => (
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li><a href="Resume" className="button">Resume</a></li>
-          <li><a href="#two" className="button">Projects</a></li>
+          <li><a href="Projects" className="button">Projects</a></li>
         </ul>
       </div>
       <Scroll type="id" element="one">
