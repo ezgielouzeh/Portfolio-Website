@@ -36,13 +36,13 @@ const IndexPage = () => (
             />
           </div>
           <p>
-            As an educator, I've always found myself either designing curriculum or building games while working in this field. After being a teacher for over 5 years, I realized I enjoy the backend of teaching as much as the teaching itself so I wanted to move on to a tech-related position where I can still be connected to education. First, I started exploring the front end, learned a little bit of HTML and CSS, started enjoying it, and thought why not tapping into the back end as well. And after exploring the ed-tech world, I decided that I would love to see myself somewhere as an e-learning expert and be involved in a process where the school systems are stuck in achieving their goals as opposed to remote learning possibilities.
-            <br /><br />
-            My prior experience in education provided me with skills that I can apply to tech and I am looking forward to working with people who believe in lifetime learning.
-            <br /><br />
-            Proficient: JavaScript, React, Redux, NodeJs, Express, Sequelize, PostgreSQL, Git, Github, HTML, CSS
-            Knowledgable: Heroku, Webpack, testing with Mocha, Chai, Jasmine
-            Some familiarity: Clarifai.js, Web Speech API. Google Cloud Translation API, React Native, Expo.
+          As an educator, I've always found myself either designing curriculum or building games while working in this field. After being a teacher for over 5 years, I realized I enjoy the backend of teaching more than the teaching itself so I wanted to move on to a tech-related position where I can still be connected to education.
+          <br /><br />
+          I decided to expose myself into this area by starting off with html and css and progressing into back end as well. I took a bootcamp and thought I should combine the best of both worlds. I completed a 17-week immersive software engineering program focused on full-stack JavaScript development enhanced with hands-on workshops and projects utilizing Node.js, Express, Sequelize, PostgreSQL, React and Redux along with HTML & CSS among many other tools.
+          <br /><br />
+          I enjoy the testing aspect of software engineering more than anything now.  I have used tools like Postman, Chai, Mocha, Yasmine and I've been adding Selenium to the list recently. I have experience in an agile environment and have a working knowledge of SQL and databases.
+          <br /><br />
+          I define success as fulfilling my role in my team and the company. It is a process where challenges encourage me to look at things from different perspectives and to find creative solutions to problems. And my ultimate goal is to become a lead engineer in the testing field at an innovative company.
           </p>
         </header>
       </div>
