@@ -53,6 +53,12 @@ module.exports = {
         name: 'Website',
         url: 'http://fourcourse-capstone.herokuapp.com',
       },
+      {
+        style: 'brands',
+        icon: 'fa-youtube',
+        name: 'Website',
+        url: 'https://www.youtube.com/watch?v=U2oVzxHFBI8',
+      },
     ],
     plantter: [
       {
